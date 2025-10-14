@@ -3,7 +3,7 @@ name = "onedl-mmsegmentation"
 version = "1.3.0"
 description = "OneDL Semantic Segmentation Toolbox and Benchmark"
 readme = "README.md"
-license = {text = "Apache-2.0"}
+license = "LicenseRef-Apache-2.0"
 authors = [
     {name = "OneDL-MMSegmentation Contributors"},
     {name = "VBTI Software Team", email = "oss@vbti.nl"}
