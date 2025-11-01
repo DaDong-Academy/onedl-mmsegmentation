@@ -161,9 +161,9 @@ class IoUMetric(BaseMetric):
         print_log('\n' + class_table_data.get_string(), logger=logger)
 
         return metrics
-
+ 
     @staticmethod
-    def intersect_and_union(pred_label: torch.tensor, label: torch.tensor,
+    def intersect_and_union(pred_label: torch.Tensor, label: torch.Tensor,
                             num_classes: int, ignore_index: int):
         """Calculate Intersection and Union.
 
